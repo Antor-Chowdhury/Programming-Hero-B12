@@ -1,0 +1,36 @@
+.header{
+    height: 300px;
+    background-color: bisque;
+    background-image: url('cat.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 200px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.blog{
+    margin: 20px;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.dolor{
+    border: 2px solid purple;
+    /* display: block; */
+    margin: 20px;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+}

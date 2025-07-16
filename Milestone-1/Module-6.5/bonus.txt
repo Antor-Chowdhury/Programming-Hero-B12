@@ -1,0 +1,2 @@
+This is the bonus module of milestone-1. In this module, the chapter those are 
+covered are Pseudo class, elements and positions.

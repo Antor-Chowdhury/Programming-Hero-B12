@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 2</title>
+    <style>
+      form label {
+        display: block;
+        /* margin-top: 10px; */
+        margin-block: 10px;
+        margin-bottom: 10px;
+      }
+      .age label {
+        display: inline;
+        /* margin-block: 10px; */
+        margin-top: 10px;
+        gap: 10px;
+      }
+      #button{
+        display: block;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>Competition Feedback Form</h2>
+        <hr />
+        <form>
+          <label for="name">First Name</label>
+          <input type="text" name="" id="name" />
+          <label for="lastname">Last Name</label>
+          <input type="text" name="" id="lastname" />
+
+          <section class="age">
+            <div><label class="group-name" for="">Age Group</label></div>
+            <input type="radio" name="Age" id="age" />
+            <label for="age">Under 12</label>
+            <input type="radio" name="Age" id="age" />
+            <label for="age">13-18</label>
+            <input type="radio" name="Age" id="age" />
+            <label for="age">19-25</label>
+            <input type="radio" name="Age" id="age" />
+            <label for="age">26-35</label>
+            <input type="radio" name="Age" id="age" />
+            <label for="age">36 and above</label>
+          </section>
+          <legend>Extra info</legend>
+          <textarea cols="50" rows="4" id=""></textarea>
+          <button id="button">submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

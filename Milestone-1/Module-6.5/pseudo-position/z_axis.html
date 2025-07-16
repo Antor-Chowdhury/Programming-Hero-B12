@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z Index</title>
+    <style>
+      .box {
+        position: relative;
+      }
+      .boy {
+        z-index: 3;
+      }
+      .ring {
+        top: -70px;
+        z-index: 1;
+      }
+      .water {
+        top: -160px;
+        left: 40px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Z-index -> Higher values on top. -->
+    <h3>All about Z-Index</h3>
+    <div class="swim-container">
+      <div class="box boy">
+        <img src="swim/boy.svg" alt="" />
+      </div>
+      <div class="box ring">
+        <img src="swim/ring.svg" alt="" />
+      </div>
+      <div class="box water">
+        <img width="80px" src="swim/water.svg" alt="" />
+      </div>
+      <br />
+      <button onclick="welcome()" btn>Holla Amigos</button>
+    </div>
+    <script>
+      //   alert("Welcome to the shit-show");
+      function welcome() {
+        alert("Bannnanassssss");
+      }
+    </script>
+  </body>
+</html>

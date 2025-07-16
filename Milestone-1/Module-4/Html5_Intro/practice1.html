@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Task 1</title>
+    <style>
+      a {
+        display: block;
+      }
+      .feedback-section label,
+      button {
+        display: block;
+        margin-top: 10px;
+      }
+      .top-section button {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <hr />
+      <form>
+        <section class="top-section">
+          <p>
+            Search Your Image here:
+            <label for="name"></label>
+            <input type="text" name="" id="name" />
+            <button>Search</button>
+          </p>
+          <img width="500px" src="images/panda.jpg" alt="" />
+
+          <a href="https://wallpapers.com/kung-fu-panda" target="_blank"
+            >For more click here</a
+          >
+        </section>
+        <hr />
+        <section class="feedback-section">
+          <p><strong>Feedback Form:</strong></p>
+          <label for="name">Name</label>
+          <input type="text" name="" id="name" />
+          <label for="date">Date</label>
+          <input type="date" name="" id="date" />
+          <label for="comment">Comment</label>
+          <textarea cols="40" rows="5" name="" id="comment"></textarea>
+          <button>Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

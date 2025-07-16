@@ -1,0 +1,22 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+nav li:hover{
+    background-color: cyan;
+}
+
+footer{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/* li{
+    list-style: none;
+    display: inline;
+} */

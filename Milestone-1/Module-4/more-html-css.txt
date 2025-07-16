@@ -1,0 +1,1 @@
+In this section, we learned about more html tags and css properties.

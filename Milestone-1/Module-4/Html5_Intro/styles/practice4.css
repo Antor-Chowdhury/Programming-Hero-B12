@@ -1,0 +1,36 @@
+/* * {
+    background-image: url(../images/demon-wallpaper.png);
+    hw
+} */
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+}
+.card-section{
+    text-align: center;
+}
+.card{
+    width: 400px;
+    border: 2px solid saddlebrown;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    /* border: 2px solid yellow; */
+}
+.card h3{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.card:hover{
+    background-color: aquamarine;
+}

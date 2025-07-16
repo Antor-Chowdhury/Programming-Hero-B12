@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phitha Ghor</title>
+    <style>
+      form .basic-info label {
+        display: block;
+        margin-top: 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="center.html">Center</a></li>
+          <li><a href="flex.html">Flex</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="auto.html">Margin Auto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Jamal Mother Pitha Ghar</h2>
+        <form>
+          <fieldset class="basic-info">
+            <legend>Basic Info</legend>
+            <label for="name">Your Name</label>
+            <input type="text" name="" id="name" />
+
+            <label for="email">Your Email</label>
+            <input type="email" name="" id="email" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Phitha Info</legend>
+
+            <input type="radio" name="pitha" id="chitoy" />
+            <label for="chitoy">Chitoy</label>
+
+            <input type="radio" name="pitha" id="vapa" />
+            <label for="vapa">Vapa</label>
+
+            <input type="radio" name="pitha" id="dal" />
+            <label for="dal">Dal Pitha</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Vorta Selection</legend>
+            <input type="checkbox" name="vorta" id="sorisa" />
+            <label for="sorisa">Sorisa</label>
+
+            <input type="checkbox" name="vorta" id="sutki" />
+            <label for="sutki">Sutki</label>
+
+            <input type="checkbox" name="vorta" id="rosun" />
+            <label for="rosun">Rosun</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pitha Price</legend>
+
+            <input type="radio" name="tk" id="ten" />
+            <label for="ten">10 TK</label>
+
+            <input type="radio" name="tk" id="20" />
+            <label for="twenty">20 TK</label>
+
+            <input type="radio" name="tk" id="thirty" />
+            <label for="thirty">30 TK</label>
+
+            <input type="radio" name="tk" id="fifty" />
+            <label for="fifty">50 TK</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Extra Info</legend>
+            <textarea cols="50" rows="4" name="" id=""></textarea>
+          </fieldset>
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Clear" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

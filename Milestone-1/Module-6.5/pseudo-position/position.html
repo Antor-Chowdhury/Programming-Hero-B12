@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positions</title>
+    <style>
+      .swim-container {
+        position: relative;
+        border: 2px solid red;
+      }
+      .box {
+        border: 2px dotted salmon;
+        width: 300px;
+      }
+      /* .ring {
+        position: relative;
+        left: 50px;
+        top: -30px;
+      } */
+
+      /* .ring {
+        position: absolute;
+        top: 50px;
+        left: 400px;
+      } */
+      /* .ring {
+        position: sticky;
+        top: 0px;
+      } */
+      .ring {
+        position: fixed;
+        top: 200px;
+        left: 50px;
+      }
+      .dummy {
+        border: 1px solid green;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>CSS Positions</h3>
+    <ul>
+      <!-- Flow related -->
+      <li>Static</li>
+      <li>Relative: won't leave his own position.</li>
+      <li>
+        Absolute.
+        <small
+          >will lose it's own position and will move based on the root</small
+        >
+      </li>
+      <!-- Scroll related -->
+      <li>Fixed</li>
+      <li>Sticky</li>
+    </ul>
+    <div class="swim-container">
+      <div class="box boy">
+        <img height="300px" width="300px" src="swim/boy.svg" alt="" />
+      </div>
+      <div class="box ring">
+        <img height="300px" width="300px" src="swim/ring.svg" alt="" />
+      </div>
+      <div class="box water">
+        <img height="300px" width="300px" src="swim/water.svg" alt="" />
+      </div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+    </div>
+  </body>
+</html>
