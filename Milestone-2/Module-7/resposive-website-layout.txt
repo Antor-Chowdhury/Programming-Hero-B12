@@ -1,0 +1,2 @@
+So in this module, we learned about responsive website layout technique like how to
+use grid and flex and also media query.
