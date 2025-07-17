@@ -24,3 +24,26 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
+
+/* Responsive Media Query */
+
+/* Small Devices */
+@media screen and (max-width:575px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .quad-collage{
+        grid-template-columns: 1fr;
+    }
+}
+/* Medium Devices */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .quad-collage{
+        grid-template-columns: 1fr;
+    }
+}
