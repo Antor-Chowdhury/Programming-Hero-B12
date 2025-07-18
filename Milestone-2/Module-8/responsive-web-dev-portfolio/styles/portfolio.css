@@ -181,9 +181,6 @@ footer textarea {
 }
 
 /* Responsive Styles */
-.hide {
-  display: none;
-}
 
 /* small devices */
 @media screen and (max-width: 576px) {
