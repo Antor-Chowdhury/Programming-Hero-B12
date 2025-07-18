@@ -227,3 +227,10 @@ footer textarea {
     width: calc(100% - 40px);
   }
 }
+
+/* For Medium Devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner {
+    flex-direction: column;
+  }
+}
