@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variable</title>
+    <style>
+      :root {
+        --primary-color: tomato;
+        --secondary-color: blue;
+        --font-size: 20px;
+      }
+      h1 {
+        /* color: steelblue; */
+        color: var(--primary-color);
+      }
+      h5 {
+        /* background-color: steelblue; */
+        background-color: var(--primary-color);
+      }
+      .box {
+        border: 2px solid var(--primary-color);
+        width: calc(100% - 300px);
+      }
+      .box p {
+        color: steelblue;
+        font-size: var(--font-size);
+      }
+      .container {
+        margin-top: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-rows: 300px;
+        grid-template-columns: 200px calc(100% - 200px - 20px);
+      }
+      .sidebar {
+        background-color: lightgray;
+      }
+      .content {
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Custom Properties</h1>
+    <h5>Also commonly known as css variables</h5>
+    <div class="box">
+      <h3>I ain't doing anything.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+        cupiditate rem corporis soluta tempora, placeat, ea eaque commodi natus
+        nulla minima minus expedita asperiores atque ipsam distinctio animi nam
+        doloremque!
+      </p>
+    </div>
+    <div class="container">
+      <div class="sidebar">Sidebar</div>
+      <div class="content">Main Content</div>
+    </div>
+  </body>
+</html>
