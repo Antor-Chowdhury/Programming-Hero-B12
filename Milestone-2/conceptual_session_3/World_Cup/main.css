@@ -1,0 +1,257 @@
+/* Common Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1414px;
+  margin: auto;
+}
+
+.hollow {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-primary {
+  background-color: rgb(221, 0, 0);
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+/* Custom Styles */
+
+/* Banner Section Styles */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  border-radius: 30px;
+  margin: 90px auto;
+  justify-content: space-between;
+}
+.banner h2 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+.banner p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.banner-left {
+  padding-left: 125px;
+  flex: 1;
+}
+.banner-right {
+  flex: 1;
+}
+
+.banner-right img {
+  display: block;
+  margin-top: 30px;
+  margin-right: 17px;
+}
+
+/* Upcoming Matches Section */
+.upcoming-matches {
+  display: flex;
+  padding: 50px 0;
+  gap: 50px;
+  margin-bottom: 90px;
+}
+.upcoming-matches-left {
+  width: 25%;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.upcoming-matches-left .btn-primary:nth-child(1),
+.upcoming-matches-left .btn-primary:nth-child(2) {
+  background-color: white;
+  color: #161616;
+}
+
+.upcoming-matches-right {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* card styles */
+.upcoming-matches-right .card {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+}
+.upcoming-matches-right .card img {
+  height: 175px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.upcoming-matches-right .card .btn-primary {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 4px 16px;
+  font-weight: 500;
+}
+.upcoming-matches-right .card h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+.upcoming-matches-right .card .card-content {
+  padding: 20px;
+}
+
+.card-bottom {
+  display: flex;
+  color: #161616cc;
+  gap: 41px;
+}
+
+/* Footer section */
+
+.footer {
+  /* background-color: rgb(22, 22, 22); */
+  background-color: black;
+  text-align: center;
+  padding: 130px 380px;
+}
+
+.footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+.footer hr {
+  max-width: 1440px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 50px auto;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+.footer ul a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #b9b9b9;
+}
+
+/* Responsive Section  */
+
+/* Tab */
+@media screen and (max-width: 992px) {
+  .container {
+    margin: 20px;
+  }
+  /* Banner */
+  .banner-left {
+    padding: 60px;
+  }
+  .banner-right img {
+    padding-top: 30px;
+  }
+  .banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  /* upcoming matches */
+  .upcoming-matches {
+    flex-direction: column;
+  }
+  .upcoming-matches-left {
+    flex-direction: row;
+    width: 100%;
+    background-color: transparent;
+  }
+  .upcoming-matches-left > * {
+    flex: 1;
+  }
+  .upcoming-matches-left .btn-primary {
+    border: 1px solid rgb(232, 232, 232);
+  }
+
+  .upcoming-matches-right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    padding: 40px;
+    text-align: center;
+  }
+
+  .footer ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer ul li:nth-child(5) {
+    grid-column: 2;
+  }
+  .footer ul li:nth-child(6) {
+    grid-column: 3;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-left {
+    padding: 20px;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .banner-right img {
+    padding: 0;
+  }
+  .upcoming-matches-left {
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .upcoming-matches-right {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+}

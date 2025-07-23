@@ -1,0 +1,81 @@
+* {
+  /* box-sizing: border-box; */
+
+  margin: 0;
+  padding: 0;
+}
+.box-sizing {
+  background-color: purple;
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  gap: 10px;
+  margin-top: 60px;
+
+  /***** Using flex *****/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /***** Using Grid *****/
+
+  /* display: grid;
+  place-content: center;
+  place-items: center; */
+
+  /***** Using Position and transform *****/
+  /* position: relative; */
+}
+.content-box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  box-sizing: content-box;
+  padding: 50px;
+
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
+.border-box {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+/* Position with Z-index - BD Flag */
+
+.flag-green {
+  height: 300px;
+  width: 500px;
+  background-color: green;
+  position: relative;
+}
+.flag-rounded-red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.flag-rounded-white {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
