@@ -1,0 +1,27 @@
+.container {
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.item {
+  border: 1px solid tomato;
+  width: 200px;
+  height: 200px;
+  flex: 1;
+}
+/* .child {
+  margin: auto;
+} */
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+/* .body {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  grid-template-areas: "";
+  grid-area: navbar;
+}  */
