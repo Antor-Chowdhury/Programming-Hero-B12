@@ -53,3 +53,4 @@ price = isLeader === true ?
          price / 2 : 0 
     : price +=1000;
 
+ 
