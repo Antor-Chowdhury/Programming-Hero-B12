@@ -20,3 +20,7 @@ const boyos = person["age"];
 console.log(boyos);
 
 console.log(person["fav places"]);
+
+// another way of calling object
+const keyName = "profession";
+console.log(keyName);
