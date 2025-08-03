@@ -1,9 +1,9 @@
-const str = "Apploar Monalisa";
+const str = "JavaScript is Amazing";
 
 let count = 0;
 
 for (const final of str) {
-  if (final === "a") {
+  if (final === "a" || final === "A") {
     count++;
   }
 }
