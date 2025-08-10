@@ -3,7 +3,7 @@
  * give me the average of the odd numbers in the array
  */
 
-// Solution - 1
+// *** Solution - 1
 
 // function oddAverage(numbers) {
 //   //   console.log(numbers);
@@ -26,7 +26,7 @@
 // const result = oddAverage(number);
 // console.log("Average of odd numbers:", result);
 
-// Solution -2
+// *** Solution -2
 
 function oddAverage(numbers) {
   const odds = [];
@@ -51,3 +51,7 @@ function oddAverage(numbers) {
 const numbers = [42, 13, 58, 65, 81, 96, 7];
 const avg = oddAverage(numbers);
 console.log("average of the odd numbers is: ", avg);
+
+/***
+ * can do even numbers like this also.
+ */
