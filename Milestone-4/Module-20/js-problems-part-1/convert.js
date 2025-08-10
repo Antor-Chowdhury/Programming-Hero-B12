@@ -30,9 +30,9 @@ const totalMile = kiloMeterToMiles(120);
 console.log(totalMile.toFixed(2), "Mile");
 
 // mile to km
-function miletoKiloMeter(mile) {
+function mileToKiloMeter(mile) {
   const kilo = mile * 1.60934;
   return kilo;
 }
-const totaKilo = miletoKiloMeter(140);
-console.log(totaKilo.toFixed(2), "Kilometer");
+const totalKilo = mileToKiloMeter(140);
+console.log(totalKilo.toFixed(2), "Kilometer");
