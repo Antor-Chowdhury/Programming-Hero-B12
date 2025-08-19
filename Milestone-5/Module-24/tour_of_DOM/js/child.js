@@ -11,3 +11,4 @@ const playersList = document.getElementById("player-list");
 
 // 3rd step: append the child to the parent
 playersList.appendChild(newChild);
+//
