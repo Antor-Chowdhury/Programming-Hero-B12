@@ -8,8 +8,26 @@
       h1 {
         color: yellow;
       }
+
+      .bg-red {
+        background-color: red;
+      }
+
+      .bold {
+        font-weight: 100;
+      }
+
+      .big {
+        font-size: 3em;
+      }
+
       #food-title {
         color: green;
+        /* background-color: tomato; */
+      }
+
+      .food .foreign {
+        font-weight: 700;
       }
     </style>
     <link rel="stylesheet" href="./styles/style.css" />
@@ -30,8 +48,13 @@
       </p> -->
     </header>
     <main>
-      <section>
+      <section id="old-dhaka" class="songs">
         <h1>Welcome to my DOM</h1>
+        <p>
+          Lorem ipsum dolor <span>oli goli</span>, sit amet consectetur
+          adipisicing <span>alias</span> elit. Nobis, atque.
+        </p>
+        <h1>ssdfa fadfaf dafasfd <span>some text</span></h1>
         <ul>
           <li>Shafayert</li>
           <li class="foreign">Bonobash</li>
@@ -41,7 +64,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="food">
         <h1 id="food-title">Foods I Love</h1>
         <ul>
           <li>Rice</li>
@@ -97,20 +120,27 @@
       // get by ID
 
       const foodTitleH1 = document.getElementById("food-title");
-      console.log(foodTitleH1);
-      console.log(foodTitleH1.innerText);
+      // console.log(foodTitleH1);
+      // console.log(foodTitleH1.innerText);
       foodTitleH1.innerText = "Food I love to eat";
 
-      const bandElement = document.getElementById("band");
-      bandElement.innerText = "jalali sleeping band";
+      // const bandElement = document.getElementById("band");
+      // bandElement.innerText = "jalali sleeping band";
 
       // get elements by class name
 
       const foreignElements = document.getElementsByClassName("foreign");
-      console.log(foreignElements);
+      // console.log(foreignElements);
 
       for (const element of foreignElements) {
-        console.log(element.innerText);
+        // console.log(element.innerText);
+      }
+
+      // query selector all
+
+      const spanElements = document.querySelectorAll("#old-dhaka p span");
+      for (const span of spanElements) {
+        console.log(span.innerText);
       }
     </script>
     <script src="./js/hello.js"></script>
