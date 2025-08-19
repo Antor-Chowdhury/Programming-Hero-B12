@@ -6,7 +6,10 @@
     <title>Tour of DOM</title>
     <style>
       h1 {
-        color: bisque;
+        color: yellow;
+      }
+      #food-title {
+        color: green;
       }
     </style>
     <link rel="stylesheet" href="./styles/style.css" />
@@ -17,23 +20,39 @@
         This is my <br />
         header no banner
       </h1>
-      <p>
+      <!-- <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, vitae.
       </p>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
         voluptate pariatur corporis ipsam rerum assumenda enim tenetur
         aspernatur, minima commodi?
-      </p>
+      </p> -->
     </header>
     <main>
-      <h1>Welcome to my DOM</h1>
-      <ul>
-        <li>Shafayert</li>
-        <li>Bonobash</li>
-        <li>Jalali Set</li>
-        <li>DOM de re baba</li>
-      </ul>
+      <section>
+        <h1>Welcome to my DOM</h1>
+        <ul>
+          <li>Shafayert</li>
+          <li class="foreign">Bonobash</li>
+          <li id="band">Jalali Set</li>
+          <li class="international">Dubai</li>
+          <li>DOM de re baba</li>
+        </ul>
+      </section>
+
+      <section>
+        <h1 id="food-title">Foods I Love</h1>
+        <ul>
+          <li>Rice</li>
+          <li>Potato</li>
+          <li>Fish</li>
+          <li>Burrito</li>
+          <li class="foreign">Pizza</li>
+          <li class="foreign">Pasta</li>
+          <li class="foreign">Burger</li>
+        </ul>
+      </section>
     </main>
 
     <script>
@@ -45,7 +64,7 @@
         name: "Abul mia",
         id: 121,
         study: function (subject) {
-          console.log("Studying Subject:", subject);
+          // console.log("Studying Subject:", subject);
         },
       };
 
@@ -71,8 +90,27 @@
       // all p tags
       const allParagraph = document.getElementsByTagName("p");
       for (const paragraph of allParagraph) {
-        console.log(paragraph);
-        console.log(paragraph.innerText);
+        // console.log(paragraph);
+        // console.log(paragraph.innerText);
+      }
+
+      // get by ID
+
+      const foodTitleH1 = document.getElementById("food-title");
+      console.log(foodTitleH1);
+      console.log(foodTitleH1.innerText);
+      foodTitleH1.innerText = "Food I love to eat";
+
+      const bandElement = document.getElementById("band");
+      bandElement.innerText = "jalali sleeping band";
+
+      // get elements by class name
+
+      const foreignElements = document.getElementsByClassName("foreign");
+      console.log(foreignElements);
+
+      for (const element of foreignElements) {
+        console.log(element.innerText);
       }
     </script>
     <script src="./js/hello.js"></script>
