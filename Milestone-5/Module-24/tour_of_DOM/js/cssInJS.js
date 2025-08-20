@@ -7,7 +7,7 @@ const sections = document.querySelectorAll("section");
 
 // ----- Inline CSS Type ------
 for (const section of sections) {
-  console.log(section);
+  // console.log(section);
   section.style.backgroundColor = "lightblue";
   section.style.border = "2px solid tomato";
   section.style.marginBottom = "5px";
