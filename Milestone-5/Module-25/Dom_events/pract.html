@@ -24,6 +24,15 @@
 
     <button id="btn-make-green">Make Green</button>
 
+    <br />
+    <br />
+
+    <!-- option 4: addEventListener -->
+
+    <button id="btn-make-orange">Make Orange</button>
+
+    <button id="btn-make-yellow">Make Yellow</button>
+
     <script>
       // option: 2
 
@@ -47,6 +56,20 @@
       function btnGreen() {
         document.body.style.backgroundColor = "green";
       }
+
+      // option 4: with addEventListener
+
+      document
+        .getElementById("btn-make-orange")
+        .addEventListener("click", function makeOrange() {
+          document.body.style.backgroundColor = "orange";
+        });
+
+      document
+        .getElementById("btn-make-yellow")
+        .addEventListener("click", function () {
+          document.body.style.backgroundColor = "yellow";
+        });
     </script>
   </body>
 </html>

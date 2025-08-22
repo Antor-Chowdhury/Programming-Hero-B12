@@ -22,7 +22,7 @@
     <button onclick="makeRed()">Make red</button>
     <br />
 
-    <!-- option:3 -->
+    <!-- option 3: get element by id and then set onclick to a function -->
 
     <button id="btn-make-blue">Make Blue</button>
 
@@ -30,7 +30,28 @@
 
     <button id="btn-make-purple">Make purple</button>
 
-    <script></script>
+    <br />
+
+    <!-- Option 4: addEventListener -->
+    <button id="btn-make-green">Make Green</button>
+
+    <button id="btn-make-orange">Make Orange</button>
+
+    <script>
+      // document.getElementById().addEventListener('event-type', handler)
+
+      document
+        .getElementById("btn-make-green")
+        .addEventListener("click", function makeGreen() {
+          document.body.style.backgroundColor = "green";
+        });
+
+      document
+        .getElementById("btn-make-orange")
+        .addEventListener("click", function () {
+          document.body.style.backgroundColor = "orange";
+        });
+    </script>
     <script src="./js/events.js"></script>
   </body>
 </html>
