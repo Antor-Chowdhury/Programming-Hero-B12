@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Event pact</title>
+  </head>
+  <body>
+    <h1>Button Handling</h1>
+
+    <!-- option: 1  -->
+
+    <button onclick="console.log(7)">Click Me</button>
+
+    <!-- option: 2 -->
+
+    <button onclick="makeRed()">Make Red</button>
+
+    <!-- option: 3 -->
+
+    <button id="btn-make-blue">Make Blue</button>
+
+    <!-- option: 3, slight different version -->
+
+    <button id="btn-make-green">Make Green</button>
+
+    <script>
+      // option: 2
+
+      function makeRed() {
+        document.body.style.backgroundColor = "red";
+      }
+
+      //   option: 3
+
+      const btnMakeBlue = document.getElementById("btn-make-blue");
+      btnMakeBlue.onclick = function () {
+        document.body.style.backgroundColor = "blue";
+      };
+
+      //   option: 3, different version
+
+      const btnMakeGreen = document.getElementById("btn-make-green");
+
+      btnMakeGreen.onclick = btnGreen; // this is the different part.
+
+      function btnGreen() {
+        document.body.style.backgroundColor = "green";
+      }
+    </script>
+  </body>
+</html>
