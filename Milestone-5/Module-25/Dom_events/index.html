@@ -8,18 +8,24 @@
   <body>
     <h1>Dom Doma dom dom events</h1>
 
-    <button
-      onclick="console.log(7)
-    "
-    >
-      Click Me
-    </button>
+    <!-- Option:1 for event handler -->
 
+    <button onclick="console.log(7) ">Click Me</button>
     <button onclick="console.log(63)">Another Button</button>
-
     <button onclick="console.log('i am clicked')">Button 3</button>
-
     <input type="text" />
+    <br />
+
+    <!-- Option:2 for click-event handler -->
+
+    <button onclick="makeYellow()">Make Yellow</button>
+    <button onclick="makeRed()">Make red</button>
+    <br />
+
+    <button id="btn-make-blue">Make Blue</button>
+    <button id="btn-make-purple">Make purple</button>
+
+    <script></script>
     <script src="./js/events.js"></script>
   </body>
 </html>
