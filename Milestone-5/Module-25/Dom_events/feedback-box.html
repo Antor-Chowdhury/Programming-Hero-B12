@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Box</title>
+    <style>
+      .feedback-container,
+      h3,
+      p {
+        border: 2px solid blue;
+        background-color: lightcyan;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Guestbook</h1>
+    <div id="feedback-container">
+      <h3>User: Antor</h3>
+      <p>Feedback: Very Good</p>
+      <!-- All feedback messages will appear here -->
+    </div>
+
+    <input type="text" id="name-input" placeholder="Your Name" />
+    <br />
+    <textarea
+      id="feedback-input"
+      placeholder="Write your feedback here..."
+      cols="50"
+      rows="4"
+    ></textarea>
+    <br />
+    <button id="btn-submit-feedback">Submit Feedback</button>
+
+    <script>
+      document
+        .getElementById("btn-submit-feedback")
+        .addEventListener("click", function () {
+          const feedbackText = document.getElementById("feedback-input");
+          const feedbackValue = feedbackText.value;
+
+          const nameText = document.getElementById("name-input");
+          const nameValue = nameText.value;
+
+          const feedbackContainer =
+            document.getElementById("feedback-container");
+
+          const feedbackName = document.createElement("h3");
+          feedbackName.innerText = "User: " + nameValue;
+
+          const userFeedback = document.createElement("p");
+          userFeedback.innerText = "Feedback: " + feedbackValue;
+
+          feedbackContainer.appendChild(feedbackName);
+          feedbackContainer.appendChild(userFeedback);
+
+          feedbackText.value = "";
+          nameText.value = "";
+        });
+    </script>
+  </body>
+</html>
