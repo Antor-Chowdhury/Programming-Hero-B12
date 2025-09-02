@@ -36,6 +36,6 @@
 
 // console.log({} == {}); // false because they are not primitive
 
-// console.log([] == []); // false because they are not primitive
+console.log([] == []); // false because they are not primitive
 
-// console.log([5] == [5]); // false , reference is different
+console.log([5] == [5]); // false , reference is different
