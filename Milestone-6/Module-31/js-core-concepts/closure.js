@@ -18,10 +18,10 @@ function counter() {
   };
 }
 
-// const innerFunc = counter();
-// innerFunc();
-// innerFunc();
-// innerFunc();
+const innerFunc = counter();
+innerFunc();
+innerFunc();
+innerFunc();
 
 const rahimCounter = counter();
 rahimCounter("rahim");
