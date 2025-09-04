@@ -8,7 +8,7 @@
       #post-container {
         max-width: 1160px;
         margin: 50px auto;
-        display: grid;
+        /* display: grid; */
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px;
         row-gap: 30px;
@@ -27,8 +27,11 @@
   </head>
   <body>
     <button onclick="loadData()">Load Data</button>
-    <button onclick="loadPost()">Load Posts</button>
+    <button onclick="loadPosts()">Load Posts</button>
+
+    <ul id="post-container"></ul>
 
     <script src="./script.js"></script>
+    <script src="./posts.js"></script>
   </body>
 </html>
