@@ -38,4 +38,4 @@ const displayPost = (posts) => {
   });
 };
 
-loadPosts(); // by default it will show the card.
+loadPosts(); // by default is will show the post.
