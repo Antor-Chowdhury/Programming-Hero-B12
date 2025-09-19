@@ -18,7 +18,7 @@
 //   console.log("NO");
 // }
 
-const friends = ["HERO", "SRK", "JRK", "RAHIM"];
+// const friends = ["HERO", "SRK", "JRK", "RAHIM"];
 
 // friends.push("BD");
 // friends.pop();
