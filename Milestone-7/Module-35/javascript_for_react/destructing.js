@@ -10,13 +10,13 @@
 
 // console.log(element1, element2, element3);
 
-const person = {
-  name: "Hero Alam",
-  age: 24,
-  friends: ["bd", "test"],
-  country: "bangladesh",
-};
+// const person = {
+//   name: "Hero Alam",
+//   age: 24,
+//   friends: ["bd", "test"],
+//   country: "bangladesh",
+// };
 
-const { name, age, country, friends } = person;
-console.log(name);
-console.log(country);
+// const { name, age, country, friends } = person;
+// console.log(name);
+// console.log(country);
