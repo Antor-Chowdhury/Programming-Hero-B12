@@ -1,10 +1,17 @@
 import "./App.css";
+import Todo from "./Todo";
 
 function App() {
+  const time = 50;
+
   return (
     <>
       <h1>React Core concepts</h1>
-      <Student name="Antor" dept="CSE"></Student>
+      <Todo task="Learn React" isDone={true} time={time}></Todo>
+      <Todo task="Revise JS" isDone={false}></Todo>
+      <Todo task="Take a Shower" isDone={true} time="100"></Todo>
+
+      {/* <Student name="Antor" dept="CSE"></Student>
       <Student name="Brain" dept="EEE"></Student>
       <Person></Person>
       <Developer name="Antor" tech="JavaScript"></Developer>
@@ -13,7 +20,7 @@ function App() {
       <Player name="Mushfiqur" runs="50"></Player>
       <Salami event="Durga Puja" amount="10000"></Salami>
       <Salami event="Graduation"></Salami>
-      <Books name="The Great Gatsby" type="Novel" num="25000"></Books>
+      <Books name="The Great Gatsby" type="Novel" num="25000"></Books> */}
     </>
   );
 }
