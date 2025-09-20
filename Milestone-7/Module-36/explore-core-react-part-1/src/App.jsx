@@ -9,9 +9,52 @@ function App() {
       <Person></Person>
       <Developer name="Antor" tech="JavaScript"></Developer>
       <Developer name="Durjoy" tech="Python"></Developer>
+      <Player name="Tamim" runs="37"></Player>
+      <Player name="Mushfiqur" runs="50"></Player>
+      <Salami event="Durga Puja" amount="10000"></Salami>
+      <Salami event="Graduation"></Salami>
+      <Books name="The Great Gatsby" type="Novel" num="25000"></Books>
     </>
   );
 }
+
+function Books({ name, type, num = 0 }) {
+  return (
+    <div
+      style={{
+        border: "2px solid orange",
+        borderRadius: "20px",
+        marginBottom: "10px",
+      }}
+    >
+      <h4>Book's Name: {name}</h4>
+      <p>Book's Type: {type}</p>
+      <p>Sold Copies: {num}</p>
+    </div>
+  );
+}
+
+function Salami({ event, amount = 0 }) {
+  return (
+    <div className="student">
+      <h4>Salami For: {event}</h4>
+      <p>Amount: {amount}</p>
+    </div>
+  );
+}
+
+// const { name, runs } = { name: "Tamim", runs: "37" };
+function Player({ name, runs }) {
+  // console.log(props);
+  return (
+    <div className="student">
+      <h3>Name: {name}</h3>
+      <p>Runs: {runs}</p>
+    </div>
+  );
+}
+
+// const { name, tech } = { name: "Antor", tech: "JS" };
 
 function Student(props) {
   return (
@@ -23,7 +66,7 @@ function Student(props) {
 }
 
 function Developer(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div
       style={{
