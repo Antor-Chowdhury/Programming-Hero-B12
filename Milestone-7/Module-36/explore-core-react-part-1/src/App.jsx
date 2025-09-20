@@ -4,8 +4,8 @@ function App() {
   return (
     <>
       <h1>React Core concepts</h1>
-      <Student></Student>
-      <Student></Student>
+      <Student name="Antor" dept="CSE"></Student>
+      <Student name="Brain" dept="EEE"></Student>
       <Person></Person>
       <Developer name="Antor" tech="JavaScript"></Developer>
       <Developer name="Durjoy" tech="Python"></Developer>
@@ -13,11 +13,11 @@ function App() {
   );
 }
 
-function Student() {
+function Student(props) {
   return (
     <div className="student">
-      <p>Name: </p>
-      <p>Dept: </p>
+      <p>Name: {props.name}</p>
+      <p>Dept: {props.dept}</p>
     </div>
   );
 }
@@ -43,9 +43,12 @@ function Person() {
   const name = "Antor";
 
   const personStyle = {
-    color: "red",
+    color: "cyan",
     textAlign: "center",
     fontSize: "20px",
+    border: "2px solid pink",
+    borderRadius: "20px",
+    padding: "20px",
   };
 
   return (
