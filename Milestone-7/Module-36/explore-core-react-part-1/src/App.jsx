@@ -1,15 +1,34 @@
 import "./App.css";
 import Todo from "./Todo";
+import Actor from "./Actor";
+import Singer from "./Singers";
 
 function App() {
-  const time = 50;
+  // const time = 50;
+
+  const actors = ["Bappa Raj", "Omar Sunny", "Salman Shah", "Jasim", "Anwar"];
+
+  const singers = [
+    { id: 1, name: "Dr. Mahfuz", age: 68 },
+    { id: 2, name: "Tahsan", age: 40 },
+    { id: 3, name: "Atif Islam", age: 43 },
+  ];
 
   return (
     <>
       <h1>React Core concepts</h1>
-      <Todo task="Learn React" isDone={true} time={time}></Todo>
+
+      {singers.map((singer) => (
+        <Singer key={singer.id} singer={singer}></Singer>
+      ))}
+
+      {/* {actors.map((actor) => (
+        <Actor actor={actor}></Actor>
+      ))} */}
+
+      {/* <Todo task="Learn React" isDone={true} time={time}></Todo>
       <Todo task="Revise JS" isDone={false}></Todo>
-      <Todo task="Take a Shower" isDone={true} time="100"></Todo>
+      <Todo task="Take a Shower" isDone={true} time="100"></Todo> */}
 
       {/* <Student name="Antor" dept="CSE"></Student>
       <Student name="Brain" dept="EEE"></Student>
