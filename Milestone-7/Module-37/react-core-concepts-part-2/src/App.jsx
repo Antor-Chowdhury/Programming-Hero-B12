@@ -6,6 +6,8 @@ import Friends from "./Friends";
 
 import Posts from "./Posts";
 
+import Albums from "./Albums";
+
 const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users").then(
   (res) => res.json()
 );
@@ -21,6 +23,13 @@ const fetchPosts = async () => {
   return res.json();
 };
 
+// Albums Api
+const fetchAlbums = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/albums");
+
+  return res.json();
+};
+
 import "./App.css";
 import { Suspense } from "react";
 
@@ -28,6 +37,8 @@ function App() {
   const friendsPromise = fetchFriends();
 
   const postsPromise = fetchPosts();
+
+  const albumsPromise = fetchAlbums();
 
   function handleClick() {
     alert("I am Clicked");
@@ -51,9 +62,13 @@ function App() {
     <>
       <h3>Vite + React</h3>
 
-      <Suspense fallback={<h4>Posts are coming...</h4>}>
-        <Posts postsPromise={postsPromise}></Posts>
+      <Suspense fallback={<h3>Albums are coming....</h3>}>
+        <Albums albumsPromise={albumsPromise}></Albums>
       </Suspense>
+
+      {/* <Suspense fallback={<h4>Posts are coming...</h4>}>
+        <Posts postsPromise={postsPromise}></Posts>
+      </Suspense> */}
 
       {/* <Suspense fallback={<h3>Loading...</h3>}>
         <Users fetchUsers={fetchUsers}></Users>
