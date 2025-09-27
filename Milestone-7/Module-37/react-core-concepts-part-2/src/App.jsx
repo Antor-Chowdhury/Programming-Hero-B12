@@ -10,6 +10,8 @@ import Albums from "./Albums";
 
 import Players from "./Players";
 
+import Counter_practice from "./Counter_prac";
+
 const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users").then(
   (res) => res.json()
 );
@@ -64,7 +66,9 @@ function App() {
     <>
       <h3>Vite + React</h3>
 
-      <Players></Players>
+      <Counter_practice></Counter_practice>
+
+      {/* <Players></Players> */}
 
       {/* <Suspense fallback={<h3>Albums are coming....</h3>}>
         <Albums albumsPromise={albumsPromise}></Albums>
