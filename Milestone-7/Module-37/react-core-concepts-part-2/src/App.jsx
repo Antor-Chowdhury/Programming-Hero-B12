@@ -14,6 +14,11 @@ function App() {
     alert(newNum);
   };
 
+  const handleAddClick6 = (num) => {
+    const newNum = num + 10;
+    alert(newNum);
+  };
+
   return (
     <>
       <h3>Vite + React</h3>
@@ -41,6 +46,14 @@ function App() {
       </button>
 
       <button onClick={() => handleAdd5(10)}>Click Add 5</button>
+
+      <button
+        onClick={() => {
+          handleAddClick6(10);
+        }}
+      >
+        6th Click
+      </button>
     </>
   );
 }
