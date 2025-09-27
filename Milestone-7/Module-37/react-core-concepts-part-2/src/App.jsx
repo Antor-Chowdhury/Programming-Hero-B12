@@ -1,7 +1,14 @@
 import Counter from "./Counter";
 import Batsman from "./Batsman";
 import Bowler from "./Bowler";
+import Users from "./Users";
+
+const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users").then(
+  (res) => res.json()
+);
+
 import "./App.css";
+import { Suspense } from "react";
 
 function App() {
   function handleClick() {
@@ -25,6 +32,10 @@ function App() {
   return (
     <>
       <h3>Vite + React</h3>
+
+      <Suspense fallback={<h3>Loading...</h3>}>
+        <Users fetchUsers={fetchUsers}></Users>
+      </Suspense>
 
       <Bowler></Bowler>
       <Batsman></Batsman>
