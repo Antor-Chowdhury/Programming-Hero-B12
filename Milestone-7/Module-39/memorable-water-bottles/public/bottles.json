@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "brand": "Aquafina",
+    "capacity": "500ml",
+    "material": "Plastic",
+    "price": 1.25,
+    "color": "Transparent",
+    "isReusable": false,
+    "stock": 120,
+    "rating": 4.2,
+    "madeIn": "USA"
+  },
+  {
+    "id": 2,
+    "brand": "Evian",
+    "capacity": "1L",
+    "material": "Plastic",
+    "price": 2.5,
+    "color": "Transparent",
+    "isReusable": false,
+    "stock": 85,
+    "rating": 4.6,
+    "madeIn": "France"
+  },
+  {
+    "id": 3,
+    "brand": "Hydro Flask",
+    "capacity": "750ml",
+    "material": "Stainless Steel",
+    "price": 29.99,
+    "color": "Blue",
+    "isReusable": true,
+    "stock": 40,
+    "rating": 4.9,
+    "madeIn": "China"
+  },
+  {
+    "id": 4,
+    "brand": "Nestlé Pure Life",
+    "capacity": "1.5L",
+    "material": "Plastic",
+    "price": 1.75,
+    "color": "Transparent",
+    "isReusable": false,
+    "stock": 150,
+    "rating": 4.1,
+    "madeIn": "Switzerland"
+  },
+  {
+    "id": 5,
+    "brand": "S'well",
+    "capacity": "500ml",
+    "material": "Stainless Steel",
+    "price": 34.95,
+    "color": "Rose Gold",
+    "isReusable": true,
+    "stock": 25,
+    "rating": 4.8,
+    "madeIn": "USA"
+  }
+]
