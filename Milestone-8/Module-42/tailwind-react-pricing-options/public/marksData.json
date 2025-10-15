@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Ariana Khan",
+    "marks": {
+      "physics": 92,
+      "chemistry": 88,
+      "math": 95
+    }
+  },
+  {
+    "id": 2,
+    "name": "David Lee",
+    "marks": {
+      "physics": 85,
+      "chemistry": 79,
+      "math": 91
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sadia Rahman",
+    "marks": {
+      "physics": 78,
+      "chemistry": 83,
+      "math": 80
+    }
+  },
+  {
+    "id": 4,
+    "name": "Michael Smith",
+    "marks": {
+      "physics": 88,
+      "chemistry": 85,
+      "math": 89
+    }
+  },
+  {
+    "id": 5,
+    "name": "Tanvir Hossain",
+    "marks": {
+      "physics": 95,
+      "chemistry": 90,
+      "math": 98
+    }
+  },
+  {
+    "id": 6,
+    "name": "Sophia Williams",
+    "marks": {
+      "physics": 81,
+      "chemistry": 87,
+      "math": 84
+    }
+  },
+  {
+    "id": 7,
+    "name": "Arif Chowdhury",
+    "marks": {
+      "physics": 74,
+      "chemistry": 69,
+      "math": 77
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nora Patel",
+    "marks": {
+      "physics": 90,
+      "chemistry": 88,
+      "math": 92
+    }
+  },
+  {
+    "id": 9,
+    "name": "Ethan Johnson",
+    "marks": {
+      "physics": 67,
+      "chemistry": 72,
+      "math": 70
+    }
+  },
+  {
+    "id": 10,
+    "name": "Mehedi Hasan",
+    "marks": {
+      "physics": 88,
+      "chemistry": 91,
+      "math": 85
+    }
+  }
+]
