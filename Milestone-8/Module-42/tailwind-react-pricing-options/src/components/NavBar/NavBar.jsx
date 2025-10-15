@@ -48,8 +48,8 @@ const NavBar = () => {
 
         {/* for small device */}
         <ul
-          className={`md:hidden absolute bg-amber-200 duration-1000 text-black ${
-            open ? "top-8" : "-top-40"
+          className={`md:hidden absolute bg-amber-200 duration-800 rounded-md text-black ${
+            open ? "top-12" : "-top-40"
           }`}
         >
           {links}

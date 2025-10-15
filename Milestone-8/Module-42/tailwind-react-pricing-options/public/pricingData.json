@@ -3,42 +3,43 @@
     "id": 1,
     "name": "Basic Plan",
     "price": "$25.99/month",
-    "description": "A starter plan for those new to the gym — get access to all essential equipment and facilities.",
+    "description": "A starter plan for those new to the gym — get access to essential fitness equipment and basic support.",
     "features": [
-      "Access to gym floor & cardio area",
-      "Locker & shower facilities",
-      "Free fitness orientation",
+      "Access to all cardio and strength machines",
+      "Locker and shower facilities included",
+      "1 complimentary fitness consultation",
       "Access during regular hours (6AM–10PM)",
-      "1 guest pass per month"
+      "1 guest pass per month",
+      "Discounts on protein shakes and supplements"
     ]
   },
   {
     "id": 2,
     "name": "Standard Plan",
     "price": "$49.99/month",
-    "description": "Perfect for regular gym-goers who want more flexibility, group classes, and trainer support.",
+    "popular": true,
+    "description": "Perfect for regular members who want more flexibility, classes, and personal trainer sessions.",
     "features": [
-      "24/7 gym access",
-      "Free group fitness classes",
-      "2 personal training sessions/month",
-      "Sauna & steam room access",
-      "Basic diet & workout plan",
-      "5 guest passes per month"
+      "Unlimited gym access (24/7 availability)",
+      "Free access to all group fitness classes",
+      "2 personal training sessions per month",
+      "Sauna and steam room access included",
+      "Basic nutrition and workout guidance",
+      "Bring a friend for free once a month"
     ]
   },
   {
     "id": 3,
     "name": "Premium Plan",
     "price": "$69.99/month",
-    "description": "All-inclusive membership for serious fitness enthusiasts — get personalized coaching and exclusive benefits.",
+    "description": "All-inclusive membership with advanced training, nutrition, and VIP perks for top results.",
     "features": [
-      "Unlimited gym & class access",
-      "Dedicated personal trainer",
-      "Custom nutrition & workout plan",
-      "VIP lounge & towel service",
-      "Free fitness gear (t-shirt, bottle, towel)",
-      "Priority booking for events & classes",
-      "Bring a friend for free every weekend"
+      "Unlimited gym and class access (24/7)",
+      "Dedicated personal trainer with progress tracking",
+      "Customized diet and meal plan with follow-ups",
+      "Access to VIP lounge and recovery area",
+      "Free gym merchandise pack (t-shirt, towel, bottle)",
+      "Priority booking for special events and workshops"
     ]
   }
 ]
