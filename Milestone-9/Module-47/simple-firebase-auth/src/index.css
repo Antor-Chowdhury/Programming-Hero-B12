@@ -66,3 +66,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Custom CSS for components */
+
+nav a {
+  margin-right: 20px;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
