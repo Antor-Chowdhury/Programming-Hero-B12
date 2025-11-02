@@ -1,7 +1,12 @@
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  sendEmailVerification,
+  updateProfile,
+} from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../../firebase/firebase.init";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Register = () => {
   const [error, setError] = useState("");
@@ -13,7 +18,11 @@ const Register = () => {
 
     const email = event.target.email.value;
     const password = event.target.password.value;
-    console.log("register clicked", email, password);
+    const terms = event.target.terms.checked;
+    const name = event.target.name.value;
+    const photo = event.target.photo.value;
+
+    console.log("register clicked", email, password, terms, name, photo);
 
     // RegEx password checking one by one
     // const length6Pattern = /^.{6,}$/;
@@ -48,11 +57,35 @@ const Register = () => {
     setError("");
     setSuccess(false);
 
+    // terms and conditions check
+    if (!terms) {
+      setError("Please accept our terms and conditions.");
+      return;
+    }
+
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         console.log("after creating a new user", result.user);
         setSuccess(true);
         event.target.reset();
+
+        // update user profile
+        const profile = {
+          displayName: name,
+          photoURL: photo,
+        };
+        updateProfile(result.user, profile)
+          .then()
+          .catch((error) => {
+            setError(error);
+          });
+
+        // send verification Email
+        sendEmailVerification(result.user).then(() => {
+          alert(
+            "Please login to your email address and verify the email address"
+          );
+        });
       })
       .catch((error) => {
         console.log(error.message);
@@ -75,6 +108,23 @@ const Register = () => {
           <div className="card-body">
             <form onSubmit={handleRegister}>
               <fieldset className="fieldset">
+                {/* user name */}
+                <label className="label">Name</label>
+                <input
+                  name="name"
+                  type="text"
+                  className="input"
+                  placeholder="Your Name"
+                />
+                {/* user Photo URL */}
+                <label className="label">Photo URL</label>
+                <input
+                  name="photo"
+                  type="text"
+                  className="input"
+                  placeholder="Photo URL"
+                />
+                {/* user email */}
                 <label className="label">Email</label>
                 <input
                   name="email"
@@ -99,7 +149,7 @@ const Register = () => {
                 </div>
                 <div>
                   <label class="label">
-                    <input type="checkbox" class="checkbox" />
+                    <input type="checkbox" name="terms" class="checkbox" />
                     Accept Our Terms and Conditions.
                   </label>
                 </div>
@@ -115,6 +165,12 @@ const Register = () => {
               )}
               {error && <p className="text-red-500 text-center">{error}</p>}
             </form>
+            <p>
+              Already have an account?{" "}
+              <Link className="text-blue-400 underline" to={"/login"}>
+                Login
+              </Link>
+            </p>
           </div>
         </div>
       </div>
