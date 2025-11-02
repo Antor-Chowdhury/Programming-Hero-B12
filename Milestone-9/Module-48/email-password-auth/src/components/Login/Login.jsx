@@ -40,7 +40,7 @@ const Login = () => {
       .then(() => {
         alert("please check your email");
       })
-      .catch(() => {
+      .catch((error) => {
         setError(error.message);
       });
   };
