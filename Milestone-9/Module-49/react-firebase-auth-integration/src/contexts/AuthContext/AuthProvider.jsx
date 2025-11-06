@@ -2,22 +2,42 @@ import React, { useEffect, useState } from "react";
 import { AuthContext } from "./AuthContext";
 import {
   createUserWithEmailAndPassword,
+  GoogleAuthProvider,
   onAuthStateChanged,
   signInWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
 } from "firebase/auth";
 import { auth } from "../../firebase/firebase.init";
 
+const googleProvider = new GoogleAuthProvider();
+
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   // For Register
   const createUser = (email, password) => {
+    setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
 
   // For SignIn
   const signInUser = (email, password) => {
-    return signInWithEmailAndPassword((auth, email, password));
+    setLoading(true);
+    return signInWithEmailAndPassword(auth, email, password);
+  };
+
+  // sign In with Google
+  const signInWithGoogle = () => {
+    setLoading(true);
+    return signInWithPopup(auth, googleProvider);
+  };
+
+  // For signOut
+  const signOutUser = () => {
+    setLoading(true);
+    return signOut(auth);
   };
 
   //   useEffect(() => {}, []);
@@ -33,6 +53,7 @@ const AuthProvider = ({ children }) => {
       console.log("current user in auth state change", currentUser);
 
       setUser(currentUser);
+      setLoading(false);
     });
     // clear the observer on unmount
     return () => {
@@ -52,8 +73,11 @@ const AuthProvider = ({ children }) => {
   const authInfo = {
     // createUser: createUser ;  --> can be written like this also.
     user,
+    loading,
     createUser,
     signInUser,
+    signInWithGoogle,
+    signOutUser,
   };
 
   return <AuthContext value={authInfo}>{children}</AuthContext>;

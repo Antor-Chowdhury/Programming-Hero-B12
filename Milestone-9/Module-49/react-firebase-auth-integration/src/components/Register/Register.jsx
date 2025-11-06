@@ -1,18 +1,22 @@
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import React from "react";
+// import { createUserWithEmailAndPassword } from "firebase/auth";
+
+import React, { use } from "react";
 import { Link } from "react-router";
-import { auth } from "../../firebase/firebase.init";
+import { AuthContext } from "../../contexts/AuthContext/AuthContext";
+
+// import { auth } from "../../firebase/firebase.init";
 
 const Register = () => {
+  const { createUser } = use(AuthContext);
+
   const handleRegister = (event) => {
     event.preventDefault();
-    const name = event.target.name.value;
     const email = event.target.email.value;
     const password = event.target.password.value;
+    const name = event.target.name.value;
+    console.log(email, password, name);
 
-    console.log("form submitted", name, email, password);
-
-    createUserWithEmailAndPassword(auth, email, password)
+    createUser(email, password)
       .then((result) => {
         console.log(result.user);
       })
@@ -20,6 +24,23 @@ const Register = () => {
         console.log(error.message);
       });
   };
+
+  //   const handleRegister = (event) => {
+  //     event.preventDefault();
+  //     const name = event.target.name.value;
+  //     const email = event.target.email.value;
+  //     const password = event.target.password.value;
+
+  //     console.log("form submitted", name, email, password);
+
+  //     createUserWithEmailAndPassword(auth, email, password)
+  //       .then((result) => {
+  //         console.log(result.user);
+  //       })
+  //       .catch((error) => {
+  //         console.log(error.message);
+  //       });
+  //   };
 
   return (
     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto mt-20">
