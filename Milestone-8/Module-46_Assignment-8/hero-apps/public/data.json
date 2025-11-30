@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/0pdQ5QTZ/1.png",
+    "title": "WellnessPro",
+    "companyName": "WellnessCore Ltd.",
+    "id": 1,
+    "description": "WellnessPro redefines personal health by combining technology, motivation, and science-backed insights into one seamless experience. Rather than juggling multiple apps for workouts, nutrition, and mindfulness, WellnessPro unites them all into a single, intelligent ecosystem. Using your phone’s sensors and AI analytics, it creates personalized fitness routines and nutrition plans that adapt to your habits and progress. Whether you’re training for strength, managing weight, or simply aiming for a balanced lifestyle, WellnessPro helps you stay on track every day.Beyond just counting calories or steps, WellnessPro takes a holistic approach. The app monitors your activity levels, sleep quality, and even stress patterns to recommend improvements tailored to your needs. Integration with wearables ensures that every heartbeat, movement, and calorie is accurately tracked in real time. The interface is clean, encouraging, and designed to reduce friction — so your focus stays on your goals rather than navigating menus. It’s like having a personal trainer, nutritionist, and wellness coach in your pocket.Daily motivation, achievement badges, and insightful progress reports help you build lasting healthy habits. With guided workouts, mindful breathing sessions, and nutrition tracking in one place, WellnessPro isn’t just an app — it’s a lifestyle partner that evolves with you. Whether you’re a beginner trying to start a routine or a fitness enthusiast pushing limits, WellnessPro gives you the tools, data, and support to make wellness a natural part of your life.",
+    "size": 75,
+    "reviews": 8421,
+    "ratingAvg": 4.2,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3721 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8LfTTjrY/2.png",
+    "title": "PocketLedger",
+    "companyName": "Finovate Labs",
+    "id": 2,
+    "description": "PocketLedger brings clarity and confidence to your financial life. Designed for individuals and families alike, it transforms budgeting from a tedious chore into an empowering daily habit. The app automatically categorizes expenses, tracks income, and visualizes your spending patterns with interactive charts and AI-powered insights. Instead of wondering where your money went, PocketLedger helps you understand exactly how to make it grow.The app’s smart savings goals and personalized tips encourage responsible financial habits. Whether you’re saving for a vacation, a home, or just trying to reduce unnecessary expenses, PocketLedger keeps you accountable. Real-time alerts notify you when you’re nearing your budget limit, and the built-in analytics provide monthly summaries that make tax time effortless. Its intuitive dashboard is visually appealing yet simple enough for anyone to use — even first-time budgeters. What truly sets PocketLedger apart is its ability to learn from your behavior. The more you use it, the smarter it gets — offering suggestions for better budgeting, investment ideas, and spending optimizations. With its clean interface, data encryption, and cross-device sync, your financial wellness is always secure and accessible. PocketLedger isn’t just an expense tracker — it’s your personal finance mentor that helps you make smarter money decisions every single day.",
+    "size": 62,
+    "reviews": 10234,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 154 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cSZC48md/3.png",
+    "title": "LinguaBoost",
+    "companyName": "PolyLingua Co.",
+    "id": 3,
+    "description": "LinguaBoost revolutionizes how people learn languages by combining AI, gamification, and daily habit-building. Instead of memorizing endless vocabulary lists, users engage in interactive speaking, writing, and listening exercises that feel more like playing a game than studying. The app adapts dynamically to your progress, ensuring every session challenges you just enough to stay motivated while steadily improving your fluency. The built-in voice recognition system allows you to practice pronunciation and receive instant feedback, making learning conversational skills more natural and effective. With short, bite-sized lessons and daily streaks, LinguaBoost seamlessly fits into your schedule — whether you’re on a bus ride or taking a quick coffee break. It supports multiple languages, each with cultural notes and situational dialogues that help you sound more authentic and confident. Progress tracking, badges, and leaderboards add a competitive yet enjoyable element to the journey. LinguaBoost also syncs across all your devices, so you can continue learning anytime, anywhere. Whether you’re preparing for travel, exams, or personal growth, LinguaBoost turns your phone into a powerful language-learning companion that makes fluency achievable, engaging, and rewarding.",
+    "size": 89,
+    "reviews": 19453,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 153 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 13500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rGhMqktm/4.png",
+    "title": "WanderMate",
+    "companyName": "GlobeTrackers Inc.",
+    "id": 4,
+    "description": "WanderMate transforms trip planning into an effortless, inspiring experience. More than just an itinerary builder, it’s a digital travel companion that curates adventures based on your interests, budget, and travel style. From choosing destinations to finding local experiences, WanderMate uses AI-driven recommendations to make every journey uniquely yours. The app ensures you spend less time planning and more time exploring. Its powerful route optimization tools help you save time and money, automatically suggesting the best paths, accommodations, and attractions. Integrated weather updates, expense tracking, and offline access keep your travel smooth, even in remote areas. Whether you’re planning a solo adventure or a family vacation, WanderMate’s collaborative features allow you to share plans, manage group expenses, and keep everyone in sync. The built-in travel journal captures memories as you go — with photos, notes, and maps of where you’ve been. Real travelers’ reviews, safety alerts, and currency converters ensure you’re always informed. WanderMate isn’t just about logistics; it’s about making every trip meaningful and stress-free. From your first destination to your final stop, it’s the all-in-one travel partner that turns journeys into unforgettable stories.",
+    "size": 105,
+    "reviews": 13121,
+    "ratingAvg": 4.3,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 221 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 7200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N6pkDyWW/5.png",
+    "title": "SmartHive",
+    "companyName": "IoTVerse Labs",
+    "id": 5,
+    "description": "SmartHive is the heart of your smart home — uniting devices, automation, and energy insights into one seamless experience. It gives users full control over lighting, security, and climate systems through a clean and intuitive interface. Whether you’re at home or away, you can monitor and manage every connected device with a single tap or voice command. Unlike traditional home control apps, SmartHive learns your preferences and daily routines. Its AI-driven automation suggests optimized schedules — dimming lights at sunset, adjusting thermostats before bedtime, or activating security cameras when you leave. You can even create custom “modes” like Movie Night or Vacation Mode for instant environment changes. With energy analytics built in, SmartHive also helps reduce power consumption and cut costs, promoting sustainable living. The app’s real-time alerts, remote access, and multi-device compatibility make it both powerful and easy to use. Setup takes minutes, and integration with popular assistants like Alexa and Google Home ensures flexibility. SmartHive doesn’t just control your home — it makes it intelligent, efficient, and truly responsive to your lifestyle.",
+    "size": 88,
+    "reviews": 7621,
+    "ratingAvg": 4.4,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 171 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3400 }
+    ]
+  },
+  {
+  "image": "https://i.ibb.co.com/hJcchczp/6.png",
+  "title": "ProjectPulse",
+  "companyName": "CollabTech Solutions",
+  "id": 6,
+  "description": "ProjectPulse is where teamwork meets clarity. Built for modern organizations and creative teams, it brings together task management, file sharing, and real-time collaboration — all in one intelligent workspace. Instead of jumping between multiple tools, teams can plan, execute, and monitor every project phase right inside the app. Clean dashboards display what’s done, what’s next, and who’s responsible, ensuring everyone stays aligned and accountable. Each project comes with visual timelines, kanban boards, and progress indicators that adapt to your workflow. Smart automation prioritizes tasks based on deadlines, dependencies, and workload balance, helping managers make quick, informed decisions. Real-time chat and document sharing eliminate the need for endless email threads, while integrated notifications keep communication seamless and transparent. What truly makes ProjectPulse stand out is its AI analytics. It detects potential bottlenecks before they happen and provides performance summaries that highlight productivity trends across the team. Whether you’re managing a remote startup or a large enterprise, ProjectPulse brings structure, insight, and efficiency to every stage of your projects — making teamwork not just easier, but smarter.",
+  "size": 72,
+  "reviews": 10875,
+  "ratingAvg": 4.6,
+  "downloads": 1180000,
+  "ratings": [
+    { "name": "1 star", "count": 200 },
+    { "name": "2 star", "count": 480 },
+    { "name": "3 star", "count": 1150 },
+    { "name": "4 star", "count": 3800 },
+    { "name": "5 star", "count": 5345 }
+  ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z6ssqWvV/7.png",
+    "title": "Happenings",
+    "companyName": "UrbanVibe Media",
+    "id": 7,
+    "description": "Happenings helps users discover concerts, meetups, and festivals nearby. Personalized recommendations, calendar integration, and ticket alerts ensure users never miss local experiences and social events.Happenings brings your city to life by curating local experiences that match your interests. From concerts and art shows to workshops and meetups, the app ensures you never miss what’s happening around you. With smart filters and personalized suggestions, it tailors events to your preferences, budget, and mood — so every weekend becomes an opportunity for discovery. The app syncs effortlessly with your calendar and provides one-tap ticket booking, reminders, and directions to venues. Real-time updates keep you informed about last-minute changes, early bird offers, and exclusive deals. Social integration allows you to see which events your friends are attending, making planning group outings effortless. Whether you’re new in town or looking to explore hidden gems, Happenings keeps you connected to the pulse of your community. Beyond events, it fosters connection — enabling local organizers to promote experiences and build communities around shared passions. With interactive maps, safety insights, and live chat options, Happenings isn’t just about attending events; it’s about creating moments and memories. It’s your personal event concierge, right in your pocket.",
+    "size": 58,
+    "reviews": 5123,
+    "ratingAvg": 4.1,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 173 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5XXSKY6k/8.png",
+    "title": "CalmNest",
+    "companyName": "Serenity Apps",
+    "id": 8,
+    "description": "CalmNest is your personal sanctuary in a noisy world. Designed to reduce stress, improve focus, and restore balance, it offers guided meditations, deep-breathing exercises, and relaxing soundscapes tailored to your emotional state. Whether you’re battling anxiety, insomnia, or burnout, CalmNest gently guides you toward mindfulness through science-backed methods and beautifully designed sessions. The app adapts dynamically to your needs. Morning sessions energize your day, while evening reflections help you unwind. You can choose from various themes — sleep, productivity, relaxation, or gratitude — and let AI recommend the right routine based on your activity and mood. A progress tracker visualizes how your mindfulness journey evolves over time, reinforcing positive habits and consistency. CalmNest stands out with its minimalist design and soothing atmosphere. It’s not just a meditation app; it’s a lifestyle tool for mental wellness. Optional background sounds — ocean waves, forest rain, or ambient piano — turn any environment into a peaceful retreat. With CalmNest, serenity is never more than a tap away.",
+    "size": 65,
+    "reviews": 9321,
+    "ratingAvg": 4.8,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 71 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 7100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YFxvvjKQ/9.png",
+    "title": "NutriPlan",
+    "companyName": "NutriAI Ltd.",
+    "id": 9,
+    "description": "NutriPlan takes the guesswork out of healthy eating. It builds personalized meal plans based on your fitness goals, dietary preferences, and daily routines. Whether you’re looking to lose weight, build muscle, or simply eat cleaner, NutriPlan uses advanced AI to recommend balanced meals that fit your calorie and nutrient targets — without sacrificing taste or variety. The app includes grocery list generation, meal prep reminders, and nutrition insights that make sticking to your plan effortless. Each recipe comes with step-by-step instructions, macro breakdowns, and substitution suggestions for allergies or ingredients you’re missing. Integration with fitness trackers ensures your meals sync perfectly with your workout data for optimal results. Over time, NutriPlan learns your habits and refines recommendations, turning nutrition into a sustainable lifestyle rather than a temporary diet. With stunning visuals, community recipe sharing, and weekly reports, it transforms the way you think about food — empowering you to eat smarter, live healthier, and feel your best every day.",
+    "size": 79,
+    "reviews": 10311,
+    "ratingAvg": 4.5,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 111 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kxv78Fw9/10.png",
+    "title": "PlantPal",
+    "companyName": "GreenPulse",
+    "id": 10,
+    "description": "PlantPal is the ultimate assistant for plant lovers — whether you’re nurturing a single succulent or managing an indoor jungle. Using advanced image recognition and AI diagnostics, it identifies plant species, detects issues like pests or overwatering, and provides care recommendations tailored to your environment. Simply snap a photo, and PlantPal tells you exactly what your green friend needs. Beyond identification, PlantPal builds personalized care schedules for watering, fertilizing, and sunlight exposure. Smart reminders help you stay consistent, while weather integration adjusts watering alerts based on local humidity and temperature. The app even tracks plant growth over time, turning care into a rewarding hobby. For beginners, PlantPal offers an in-app knowledge hub full of tutorials and troubleshooting guides. For experts, it allows journaling and progress tracking for each plant. The elegant interface and gentle notifications make caring for your plants effortless and joyful. With PlantPal, your plants don’t just survive - they thrive.",
+    "size": 54,
+    "reviews": 6532,
+    "ratingAvg": 4.3,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 132 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dSFhsK5/11.png",
+    "title": "SkillForge",
+    "companyName": "EduVerse",
+    "id": 11,
+    "description": "SkillForge is the modern learner’s ultimate workshop - where curiosity meets mastery. It’s designed for students, professionals, and lifelong learners who want to upgrade their skills through short, interactive, and practical lessons. From coding and design to business strategy and creative writing, SkillForge makes learning intuitive and engaging with bite-sized video lessons, quizzes, and real-world projects. The platform’s smart AI tutor personalizes your journey, identifying weak areas and suggesting courses that align with your career goals. You can set weekly learning goals, track your progress visually, and earn verified badges to showcase on LinkedIn or your resume. Discussion boards allow learners to interact, exchange insights, and collaborate on mini projects. SkillForge goes beyond passive learning - it challenges you to build, solve, and apply. Every course ends with a capstone task that simulates real job scenarios, helping you gain practical confidence. Whether you’re learning Python for your first project or mastering UI design for your portfolio, SkillForge is the bridge between education and opportunity.",
+    "size": 96,
+    "reviews": 12022,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 222 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23JMSRQJ/12.png",
+    "title": "EcoFootprint",
+    "companyName": "PlanetCare",
+    "id": 12,
+    "description": "EcoFootprint tracks daily carbon emissions from food, travel, and lifestyle. Users can participate in eco-challenges, set sustainability goals, and monitor their progress toward greener living.SafePath redefines road safety with real-time awareness and intelligent alerts. Designed for everyday drivers and commuters, it uses GPS and AI to detect traffic hazards, sharp turns, and sudden stops - helping you make safer driving decisions. Whether you’re on your daily route or exploring new roads, SafePath ensures you reach your destination confidently. The app continuously monitors road conditions, speed limits, and driver fatigue through motion and sensor data. It sends gentle reminders if you’re driving for too long or braking too hard. With real-time crowd-sourced updates, you get instant warnings about accidents, speed cameras, and construction zones nearby. Parents can even use SafePath’s “Family Mode” to track young drivers and receive safety reports in real-time. Meanwhile, fleet owners can monitor driver performance through detailed analytics dashboards. The minimal interface and hands-free voice notifications make it distraction-free and intuitive. SafePath is more than navigation - it’s your intelligent driving companion that prioritizes safety above all.",
+    "size": 57,
+    "reviews": 4821,
+    "ratingAvg": 4.1,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 121 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xSCVWvwP/13.png",
+    "title": "Creativa",
+    "companyName": "ArtSpace Labs",
+    "id": 13,
+    "description": "Creativa is a comprehensive platform designed for digital creators, combining inspiration, collaboration, and skill development in a single ecosystem. Whether you create art, music, or graphic designs, Creativa empowers users to explore their creative potential by providing AI-generated prompts, style suggestions, and guided challenges tailored to skill level. Community engagement is at the heart of the platform, allowing creators to share work, receive constructive feedback, and participate in collaborative projects that foster growth and learning. The app’s progress-tracking system offers insights into skill development over time, enabling users to reflect on their improvement and refine techniques. Personalized recommendations encourage experimentation with new styles, tools, and creative approaches, making the creative process both structured and inspiring. For beginners, Creativa offers tutorials, step-by-step guides, and curated learning paths to build foundational skills. Experienced users can benefit from advanced features such as AI-assisted composition, professional-grade portfolio building, and project organization. With a clean and intuitive interface, Creativa minimizes distractions and maximizes focus, allowing users to immerse themselves in creation. Notifications and reminders keep artists motivated while balancing workflow and creative rest. Whether you’re an aspiring creator looking to learn new skills or a professional seeking inspiration and exposure, Creativa provides a nurturing environment to cultivate creativity, track progress, and connect with a vibrant community. By integrating AI-driven insights, social collaboration, and personalized guidance, the app transforms the creative journey into a structured yet highly engaging experience, helping users turn ideas into polished, shareable masterpieces.",
+    "size": 84,
+    "reviews": 5633,
+    "ratingAvg": 4.3,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 133 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/spP8wStw/14.jpg",
+    "title": "PetCare Pro",
+    "companyName": "PawWorks Ltd.",
+    "id": 14,
+    "description": "PetCare Pro is a powerful, all-in-one solution for pet owners, designed to simplify and enhance pet care. The app allows users to manage multiple pets effortlessly, maintaining detailed health records, vaccination schedules, and vet appointments. By providing daily activity tracking, feeding logs, and grooming reminders, PetCare Pro ensures pets receive consistent, attentive care. Notifications and alerts keep owners on top of routine tasks, reducing stress and preventing oversight. Beyond basic management, PetCare Pro offers in-depth wellness insights, analyzing behavior, nutrition, and activity patterns to recommend personalized care strategies. Users can monitor pet growth, track exercise, and detect early signs of health issues, empowering proactive intervention. The app also features a knowledge hub with articles, tutorials, and best practices for pet care, suitable for both new and experienced pet owners. Collaboration is seamless: multiple caregivers can access pet profiles, coordinate routines, and share updates to maintain consistent care. PetCare Pro’s interface is designed to be intuitive and engaging, with visual dashboards, charts, and progress indicators that make pet wellness tracking easy and motivating. By combining smart reminders, AI-driven insights, and community guidance, the app helps owners nurture healthier, happier pets. With PetCare Pro, caring for pets becomes organized, stress-free, and enjoyable, ensuring that your companions thrive and live their best lives.",
+    "size": 66,
+    "reviews": 7122,
+    "ratingAvg": 4.5,
+    "downloads": 880000,
+    "ratings": [
+      { "name": "1 star", "count": 122 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3LKwn4h/15.png",
+    "title": "SafePath",
+    "companyName": "UrbanSense AI",
+    "id": 15,
+    "description": "SafePath is an intelligent navigation app focused on user safety, designed for modern urban environments. Using advanced AI algorithms, it analyzes real-time data such as traffic density, lighting conditions, and crowd movement to guide users along the safest routes. The app delivers timely alerts, hazard warnings, and alternative path suggestions, ensuring that every journey is both efficient and secure. The app supports multiple modes of transport, including walking, cycling, and public transit, adapting recommendations to different scenarios. SafePath also tracks user behavior and provides insights on safe travel habits, helping users make informed decisions about routes and schedules. For commuters, students, and urban explorers, SafePath minimizes risk while enhancing confidence in everyday travel. Additional features include location-based safety ratings, emergency contact alerts, and customizable notifications. Users can receive guidance on avoiding high-risk areas, adjusting travel plans during busy hours, or navigating unfamiliar neighborhoods safely. With a clean interface and interactive maps, SafePath makes complex safety data accessible and actionable. By integrating AI-driven risk assessment, real-time alerts, and adaptive route planning, SafePath transforms urban navigation into a secure, stress-free, and informed experience, empowering users to travel confidently while minimizing exposure to hazards.",
+    "size": 59,
+    "reviews": 6023,
+    "ratingAvg": 4.0,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 223 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WpzgSs9Y/16.png",
+    "title": "QuickNotes",
+    "companyName": "MindFlex Apps",
+    "id": 16,
+    "description": "QuickNotes is an advanced productivity app that redefines note-taking and idea management for personal and professional use. With features such as voice recognition, intelligent categorization, and offline syncing, users can capture thoughts instantly and organize them efficiently. Smart tags, folders, and search capabilities allow for easy retrieval of notes, while reminders and notifications help manage deadlines and tasks seamlessly. The app also supports collaborative note-taking, enabling teams, study groups, or families to share and edit notes in real time. Offline functionality ensures no idea is lost, even when connectivity is unavailable. QuickNotes integrates multimedia options, including images, audio, and attachments, making it versatile for various types of content. Users can track productivity patterns with analytics that highlight frequently used categories, note completion, and task trends. The interface is designed to reduce cognitive load, allowing for a distraction-free experience where users focus solely on capturing ideas. For professionals, students, and creatives, QuickNotes serves as a digital workspace that transforms scattered thoughts into structured, actionable insights. By combining smart organization, fast capture, and collaborative features, QuickNotes helps users maximize efficiency, enhance knowledge management, and maintain clarity in their daily workflow.",
+    "size": 42,
+    "reviews": 9733,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 133 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23wFdbLW/17.png",
+    "title": "EduCompanion",
+    "companyName": "LearnPro Tech",
+    "id": 17,
+    "description": "EduCompanion is a comprehensive learning platform that blends AI tutoring, interactive flashcards, and adaptive quizzes to create a personalized educational experience. Users can study at their own pace, receive tailored feedback, and monitor progress in real time. The app identifies weak areas and provides targeted exercises, helping learners focus on topics that require the most attention. Gamified achievements and milestones maintain motivation, while analytics give insight into strengths, weaknesses, and learning trends. EduCompanion also supports multiple learning styles, offering visual, auditory, and interactive content that enhances retention and engagement. Users can customize learning paths to fit their goals, whether preparing for exams, improving professional skills, or acquiring new knowledge. The platform fosters a sense of community through discussion boards, peer challenges, and collaborative exercises, encouraging learners to engage with one another and share knowledge. With AI-driven guidance, adaptive content, and progress tracking, EduCompanion transforms traditional study routines into efficient, personalized, and enjoyable learning experiences. Its intuitive interface ensures minimal distractions, allowing learners to immerse themselves in study while gaining actionable insights for continuous improvement. By combining technology, motivation, and personalization, EduCompanion empowers users to achieve learning goals effectively and confidently.",
+    "size": 71,
+    "reviews": 10532,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 132 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 7200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LzW6VDrH/18.png",
+    "title": "SleepAid",
+    "companyName": "CalmWorks Ltd.",
+    "id": 18,
+    "description": "SleepAid is a comprehensive wellness app designed to improve sleep quality and promote healthy rest routines. Combining guided meditation, ambient soundscapes, and wearable-tracked sleep analysis, the app helps users create personalized bedtime routines tailored to their unique sleep patterns. Users can select from a variety of calming sounds, including nature, white noise, or instrumental music, to create a relaxing environment conducive to restful sleep. The app tracks sleep duration, quality, and patterns, offering insights and suggestions to optimize rest. Guided breathing exercises and meditation sessions help reduce stress and promote relaxation before bedtime. Users can set daily reminders to establish consistent sleep schedules, track progress over time, and adjust routines based on analytics. SleepAid also supports integration with wearable devices, providing detailed reports on heart rate, movement, and sleep cycles to enhance understanding of personal sleep habits. The intuitive interface ensures a distraction-free experience, allowing users to focus entirely on relaxation. By combining science-backed techniques, AI insights, and customizable tools, SleepAid transforms the way users approach sleep, helping them achieve better rest, improved focus, and overall wellness.",
+    "size": 83,
+    "reviews": 9544,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 144 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XZvHMkGD/19.png",
+    "title": "FocusMate",
+    "companyName": "ZenLab Studio",
+    "id": 19,
+    "description": "FocusMate is a productivity app that applies the Pomodoro technique to modern work and study routines. It allows users to create custom work intervals and break sessions, track daily focus achievements, and review detailed analytics on productivity habits. Optional ambient sounds, like white noise or soft music, help minimize distractions and maintain concentration. A standout feature of FocusMate is its task-based approach. Users can assign specific tasks to each Pomodoro session, making their schedules more organized and structured. Analytics show which tasks consume the most energy, helping users identify strengths and areas for improvement. For those struggling with procrastination, the app provides motivational streaks, achievements, and milestones, turning focus into a gamified, engaging experience. Notifications gently guide users on when to pause and resume, fostering a healthy rhythm between work and rest. With a minimal and calming design, FocusMate ensures users can work efficiently while maintaining mental clarity. Whether for coding, writing, studying, or professional tasks, FocusMate helps users maximize productivity, stay disciplined, and work smarter, not just harder.",
+    "size": 68,
+    "reviews": 8321,
+    "ratingAvg": 4.4,
+    "downloads": 970000,
+    "ratings": [
+      { "name": "1 star", "count": 271 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JRc17JBd/20.png",
+    "title": "MindTracker",
+    "companyName": "NeuroApps",
+    "id": 20,
+    "description": "MindTracker is an AI-powered mental health companion that helps users monitor mood, journal thoughts, and follow guided exercises for emotional well-being. The app tracks daily mental health patterns and provides personalized recommendations to improve focus, calmness, and emotional balance over time. With journaling tools and analytics, MindTracker helps users recognize triggers, track progress, and reflect on habits affecting mental health. Guided exercises, breathing routines, and mindfulness practices encourage stress reduction and emotional resilience. The app also offers reminders and insights to maintain consistency, making mental health care simple and structured. Its clean, user-friendly interface allows users to focus on self-care without distractions. By combining tracking, AI-driven guidance, and wellness exercises, MindTracker empowers users to enhance their emotional well-being, build healthy habits, and navigate daily stress with confidence and clarity.",
+    "size": 77,
+    "reviews": 7120,
+    "ratingAvg": 4.6,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  }
+]

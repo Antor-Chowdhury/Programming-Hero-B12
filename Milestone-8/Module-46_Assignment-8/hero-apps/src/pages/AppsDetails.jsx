@@ -1,0 +1,119 @@
+import React, { useState } from "react";
+import downloadIcon from "../assets/icon-downloads.png";
+import ratingsIcon from "../assets/icon-ratings.png";
+import reviewIcon from "../assets/icon-review.png";
+import {
+  getAppsFromLocalStorage,
+  storeInstalledApp,
+} from "../utility/localStorage";
+import { useParams } from "react-router";
+import useApps from "../hooks/UseApps";
+import Loader from "../components/Loader/Loader";
+import AppNotFound from "../components/App-Not-Found/AppNotFound";
+import BarChartRatings from "../components/BarChart/BarChartRatings";
+
+const AppsDetails = () => {
+  const storedApps = getAppsFromLocalStorage();
+
+  const { appId } = useParams();
+
+  const { apps, loading } = useApps();
+
+  const app = apps.find((a) => a.id === Number(appId));
+  const isInstalled = storedApps.some((a) => a.id === Number(appId));
+  const [clickBtn, setClickBtn] = useState(isInstalled);
+
+  if (loading) {
+    return (
+      <div className="relative h-[calc(100vh-452px)] flex items-center justify-center">
+        <Loader></Loader>
+      </div>
+    );
+  }
+
+  if (!app) {
+    return <AppNotFound></AppNotFound>;
+  }
+  const {
+    title,
+    image,
+    companyName,
+    description,
+    size,
+    reviews,
+    ratingAvg,
+    downloads,
+    ratings,
+  } = app;
+
+  const handleInstalledApp = (app) => {
+    setClickBtn(true);
+    storeInstalledApp(app);
+  };
+
+  let split1 =
+    description.lastIndexOf(".", Math.floor(description.length / 2)) + 1;
+
+  let p1 = description.substring(0, split1).trim();
+  let p2 = description.substring(split1).trim();
+  let p3 = description.substring(split1).trim();
+
+  return (
+    <div className="max-w-[1440px] mx-auto my-20 px-2.5">
+      <div className="flex flex-col items-center-safe md:items-stretch md:flex-row gap-10 ">
+        <figure className="w-80 h-80 ">
+          <img className="w-full h-full" src={image} alt="App" />
+        </figure>
+
+        <div className="flex flex-col gap-4 md:justify-between items-center md:items-start">
+          <h2 className="dark font-bold text-3xl">{title}</h2>
+          <h4 className="gray text-lg">
+            Developed by
+            <span className="gradient-text font-semibold"> {companyName}</span>
+          </h4>
+
+          <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-start dark gap-6">
+            <div className="w-36 flex flex-col items-center md:block">
+              <img src={downloadIcon} alt="download" />
+              <p className="mt-2">Downloads</p>
+              <h2 className="text-[40px] font-extrabold">
+                {downloads / 100000}M
+              </h2>
+            </div>
+            <div className="w-36 flex flex-col items-center md:block">
+              <img src={ratingsIcon} alt="star" />
+              <p className="mt-2">Average Ratings</p>
+              <h2 className="text-[40px] font-extrabold">{ratingAvg}</h2>
+            </div>
+            <div className="w-36 flex flex-col items-center md:block">
+              <img src={reviewIcon} alt="review" />
+              <p className="mt-2">Total Reviews</p>
+              <h2 className="text-[40px] font-extrabold">{reviews / 1000}K</h2>
+            </div>
+          </div>
+          <button
+            disabled={clickBtn}
+            onClick={() => handleInstalledApp(app)}
+            className="cursor-pointer bg-[#00D390] text-xl font-semibold py-3.5 px-5 rounded-lg text-white"
+          >
+            {clickBtn ? "Installed" : `Install Now (${size} MB)`}
+          </button>
+        </div>
+      </div>
+      <hr className="w-full gray opacity-50 my-10" />
+
+      <h3 className="dark text-2xl font-semibold mb-6">Ratings</h3>
+      <div className="h-80">
+        <BarChartRatings ratings={ratings}></BarChartRatings>
+      </div>
+      <hr className="w-full gray opacity-50 my-10" />
+
+      <h3 className="dark text-2xl font-semibold mb-6">Description</h3>
+      <p className="gray text-xl mb-5">{p1}</p>
+      <p className="gray text-xl mb-5">{p2}</p>
+      <p className="gray text-xl">{p3}</p>
+    </div>
+  );
+};
+
+export default AppsDetails;
