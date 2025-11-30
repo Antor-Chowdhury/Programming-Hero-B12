@@ -9,6 +9,7 @@ import PrivateRoute from "./PrivateRoute";
 import PlantDetails from "../pages/PlantDetails";
 import ForgetPass from "../pages/ForgetPass";
 import Error from "../pages/Error";
+import AddPlants from "../pages/AddPlants";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,14 @@ const router = createBrowserRouter([
       {
         path: "/forget/:email",
         element: <ForgetPass></ForgetPass>,
+      },
+      {
+        path: "/add-plants",
+        element: (
+          <PrivateRoute>
+            <AddPlants></AddPlants>
+          </PrivateRoute>
+        ),
       },
     ],
   },

@@ -5,13 +5,13 @@ const TopRatedPlants = () => {
   const [plants, setPlants] = useState([]);
 
   useEffect(() => {
-    fetch("./plants.json")
+    fetch("http://localhost:3000/plants")
       .then((res) => res.json())
       .then((data) => setPlants(data))
       .catch((err) => console.log(err));
   }, []);
 
-  //   console.log(plants);
+  console.log(plants);
 
   return (
     <div className="bg-linear-to-r from-[#e3f7da] to-[#8dab7d] py-10">
@@ -37,7 +37,7 @@ const TopRatedPlants = () => {
                 <p className="font-medium">Price: {plant?.price}$</p>
                 <p className="font-medium">Ratings: {plant?.rating}</p>
                 <div className="card-actions">
-                  <Link to={`/details/${plant?.plantId}`}>
+                  <Link to={`/details/${plant?._id}`}>
                     <button className="btn btn-primary">View Details</button>
                   </Link>
                 </div>

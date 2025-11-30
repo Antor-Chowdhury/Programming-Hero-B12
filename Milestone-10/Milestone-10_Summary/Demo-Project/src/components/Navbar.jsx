@@ -53,6 +53,17 @@ const NavBar = () => {
           </span>
         )}
       </NavLink>
+      <NavLink to="/add-plants">
+        {({ isActive }) => (
+          <span
+            className={`nav-link font-medium border-[#ffda03] hover:border-b-2  hover:${
+              isActive ? " active border-b-2" : " "
+            }`}
+          >
+            Add Plants
+          </span>
+        )}
+      </NavLink>
     </>
   );
   return (
