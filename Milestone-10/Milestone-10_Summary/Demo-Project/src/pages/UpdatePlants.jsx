@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
-import { useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import axios from "axios";
 
 const UpdatePlants = () => {
@@ -9,6 +9,8 @@ const UpdatePlants = () => {
   const [plant, setPlant] = useState();
   const [category, setCategory] = useState(plant?.category);
   const [careLevel, setCareLevel] = useState(plant?.careLevel);
+
+  const navigation = useNavigate();
 
   useEffect(() => {
     axios.get(`http://localhost:3000/plants/${id}`).then((res) => {
@@ -20,11 +22,54 @@ const UpdatePlants = () => {
 
   console.log(plant);
 
-  const handleUpdate = () => {};
+  const handleUpdate = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    const plantId = parseInt(form.plantId.value);
+    const plantName = form.plantName.value;
+    const category = form.category.value;
+    const price = parseInt(form.price.value);
+    const rating = parseInt(form.rating.value);
+    const availableStock = parseInt(form.availableStock.value);
+    const careLevel = form.careLevel.value;
+    const description = form.description.value;
+    const image = form.image.value;
+    const email = form.email.value;
+
+    const formData = {
+      plantId,
+      plantName,
+      category,
+      price,
+      rating,
+      availableStock,
+      careLevel,
+      description,
+      image,
+      email,
+      createdAt: plant?.createdAt,
+    };
+    // console.log(formData);
+
+    axios
+      .put(`http://localhost:3000/update/${id}`, formData)
+      .then((res) => {
+        console.log(res.data);
+        navigation("/my-plants");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <div className="max-w-3xl mx-auto p-6 bg-white rounded-xl shadow-md my-10">
-      <h2 className="text-2xl font-bold mb-6 text-green-700">Update Plant</h2>
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-6 text-green-700 inline-block border-b-2">
+          Update Plant
+        </h2>
+      </div>
       <form onSubmit={handleUpdate} className="space-y-4">
         {/* Plant ID */}
         <div>
@@ -166,9 +211,9 @@ const UpdatePlants = () => {
         {/* Submit Button */}
         <button
           type="submit"
-          className="bg-green-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-700 transition"
+          className="bg-green-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-700 transition w-full"
         >
-          Submit
+          Update
         </button>
       </form>
     </div>
