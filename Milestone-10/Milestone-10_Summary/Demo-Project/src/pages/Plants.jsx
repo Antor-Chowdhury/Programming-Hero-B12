@@ -5,7 +5,7 @@ const Plants = () => {
   const [plants, setPlants] = useState([]);
 
   useEffect(() => {
-    fetch("/plants.json")
+    fetch("http://localhost:3000/plants")
       .then((res) => res.json())
       .then((data) => setPlants(data))
       .catch((err) => console.log(err));
@@ -40,7 +40,7 @@ const Plants = () => {
                 <p className="font-medium">Price: {plant?.price}$</p>
                 <p className="font-medium">Ratings: {plant?.rating}</p>
                 <div className="card-actions">
-                  <Link to={`/details/${plant?.plantId}`}>
+                  <Link to={`/details/${plant?._id}`}>
                     <button className="btn btn-primary">View Details</button>
                   </Link>
                 </div>

@@ -10,6 +10,7 @@ import PlantDetails from "../pages/PlantDetails";
 import ForgetPass from "../pages/ForgetPass";
 import Error from "../pages/Error";
 import AddPlants from "../pages/AddPlants";
+import MyPlants from "../pages/MyPlants";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
             <AddPlants></AddPlants>
           </PrivateRoute>
         ),
+      },
+      {
+        path: "/my-plants",
+        element: <MyPlants></MyPlants>,
       },
     ],
   },
