@@ -11,6 +11,8 @@ import ForgetPass from "../pages/ForgetPass";
 import Error from "../pages/Error";
 import AddPlants from "../pages/AddPlants";
 import MyPlants from "../pages/MyPlants";
+import UpdatePlant from "../pages/UpdatePlants";
+import UpdatePlants from "../pages/UpdatePlants";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: "/my-plants",
         element: <MyPlants></MyPlants>,
+      },
+      {
+        path: "/update-plants/:id",
+        element: <UpdatePlants></UpdatePlants>,
       },
     ],
   },
